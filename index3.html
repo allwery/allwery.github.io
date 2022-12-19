@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title> HTTML HW </title>
+</head>
+
+
+<header>
+    <div class="head">
+        <img src="https://img1.goodfon.com/original/3600x3600/3/89/lyagushka-ochki-krutizna.jpg" class="logo" align="center">
+        <h1 class="hea"> Homework</h1>
+    </div>
+
+
+
+
+</header>
+
+
+
+<body>
+    <div class="navig">
+        <nav class="navi">
+            <a href="#table" class="sil">Menu</a> <a href="about/about.html" class="sil">About</a> <a href="second.html" class="sil">Page</a>
+        </nav>
+    </div>
+
+    <ol>
+        <li>    <a href="http:/example.com">Абсолютная гипперссылка на главную страницу сайта example.com</a> </li>
+        <li>    <a href="https:/example.com">Абсолютная гипперссылка на главную сайта example.com в протоколе https</a>    </li>
+        <li>    <a href="ftp://vk.com/music47301829">Файл на сервере FTP без авторизации</a>     </li>
+        <li>    <a href="ftp://student:password123/vk.com">Файл на сервере FTP с авторизацией</a>    </li>
+        <li>    <a href="https://sky.pro/media/massivy-java/">Ссылка на фрагмент страницы некоторого сайта </a>    </li>
+        <li>    <a href="#id1">Ссылка на фрагмент текущей страницы(форма)</a> </li>
+        <li>    <a href="https://www.youtube.com/watch?v=_ObzwhPkyuM">Ссылка с двумя параметрами в URL</a>    </li>
+        <li>
+            <ul>
+                <li>  <a href="#id1">Оглавление</a> </li>
+                <li>  <a href="#id2">Регистрация</a>  </li>
+            </ul>
+        </li>
+        <li> <a title="Это пустая ссылка">Ссылка без href </a> </li>
+        <li>  <a href="">Ссылка с пустым href</a> </li>
+        <li> <a href="https://example.com/" rel="nofollow">Запрещен переход поисковикам</a> </li>
+        <li> <noindex><a href="https://example.com/">Ссылка запрещенная для индексации поисковикам</noindex> </li>
+        <li>  </p><a href="https://ru.wikipedia.org/wiki/Симонс,_Раф">Раф Ян Симонс</a>  Бельгийский дизайнер, второй креативный директор Prada с февраля 2020 года</li>
+        <li><a href="https://s00.yaplakal.com/pics/pics_preview/1/3/5/11404531.jpg" target="_blank"><img src=https://aroterra.ru/image/cache/catalog/demo/rotho/19.-kontejner-dlja-razdelnogo-sbora-musora-Ro-750x750.jpg alt="покупка" width="150" height="100"></a></li>
+        <li>
+            <h2>Включите воду(левая ручка- холодная, правая - горячая)</h2>
+            <img src = https://lemark.msk.ru/upload/b84485621ad832bd58b5037ab5a63c74.jpg  alt="выключение" usemap="#off" width="300" height="250">
+            <map name="off">
+            <area shape = "rect" coords="30,180,100,100" href ="https://fb.ru/media/i/2/8/2/0/4/9/6/i/2820496.jpg" target="_blank">
+            <area shape = "circle" coords="200,150,60" href="https://media-1obl-ru.storage.yandexcloud.net/resize_cache/763711/83132dad08c79bfbcc1d891fdcdbb658/iblock/286/286a9fa44331513aeddd5ac92c373bad.jpg">
+            </map>
+         </li>
+     </ol>
+
+    <div class="table">
+        <table border="1" align="center" id="table">
+            <tr>
+                <th colspan="3">Данные</th>
+            </tr>
+
+            <tr>
+                <th class="tb">Имя</th>
+                <th>Вес(кг)</th>
+                <th class="tb">Рост(см)</th>
+            </tr>
+            <tr>
+                <td>Паша</td>
+                <td class="tb">92</td>
+                <td>184</td>
+            </tr>
+            <tr>
+                <td class="tb">Рома</td>
+                <td>56</td>
+                <td class="tb">164</td>
+            </tr>
+            <tr>
+                <td>Аня</td>
+                <td class="tb">61</td>
+                <td>177</td>
+            </tr>
+            <tr>
+                <td class="tb">Дима</td>
+                <td>134</td>
+                <td class="tb" 183</td>
+            </tr>
+        </table>
+    </div>
+
+    <h1>Форма HTML</h1>
+          <h2>Регистрация в социальной сети</h2>
+          <p id="id2"></p>
+          <form action="/"
+            method="POST">
+      
+            <label>
+              Введите ваше ФИО:<br />
+              <input name="field-FIO-1"
+                placeholder="ФИО" />
+            </label><br />
+      
+            <label>
+              Введите ваш email:<br />
+              <input name="field-email"
+                type="email"
+                placeholder="email" />
+            </label><br />
+
+            <label>
+                Придумайте пароль:<br />
+                <input pasword="field-pasword"
+                  type="pasword"
+                  placeholder="Пароль" />
+              </label><br />
+      
+            <label>
+              Введите вашу дату рождение:<br />
+              <input name="field-date"
+                value="1970-01-01"
+                type="date" />
+            </label><br />
+
+            <label>Пол: </label><br>
+            <label>
+              <input type="radio" value="value-1" name="gender" required>Мужской
+            </label>
+            <label>
+              <input type="radio" value="value-2" name="gender" required>Женский
+            </label>
+            <br>
+            <br>
+
+                <label>Имеется ли у вас работа?: <br></label>
+                <label>
+                  <input type="radio" value="Я школьник" name="work" required>Я школник
+                </label>
+                <label>
+                  <input type="radio" value="Я студент" name="work" required>Я студент
+                </label>
+                <label>
+                  <input type="radio" value="У меня есть работа" name="work" required>У меня есть работа
+                </label>
+                <label>
+                  <input type="radio" value="Я безработный" name="work" required>Я безработный
+                </label>
+                <br>
+                <br>
+      
+            <label>Ваше семейное положение:</label><br>
+            <select name="work">
+              <option value="1" required>Не женат/ не замужем</option>
+              <option value="2" required>В поиске партнера</option>
+              <option value="3" required>Состою в отношениях</option>
+              <option value="4" required>Состою в браке</option>
+            </select>
+            <br>
+            <br>
+
+            <lable>о себе:</label><br>
+              <textarea name="field-name-2"></textarea>
+              <br>
+              <div class="checkbox">
+                <label for="submit">
+            <input type="checkbox" name="submit"> С условием пользования ознакомлен(а)
+          </label>
+        </div>
+        <input type="submit" value="Отправить" class="m-2">
+      </div>
+  </form>
+    </ <div class="footer">
+        <footer>
+            © allweru
+        </footer>
+    </div>
+</body>
+</html>
