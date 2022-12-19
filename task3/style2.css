@@ -1,78 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 body {
-  background: rgba(17, 141, 223, 0.356);
-  color: rgb(10, 100, 235);
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
-A{
-  color: rgb(10, 100, 235);
-  text-decoration:none;
-}
-h1{
-  text-align: center;
-}
-img.logo{
-  float: left;
-  margin: 10px;
-  width: 100px;
-  padding-top: 40px;
-  margin-left: 100px;
 
+a{
+    color:#fff;
+    text-decoration: none;
 }
-div.head{
-    background: rgba(17, 141, 223, 0.356);
-  align-content: center;
-  width: 100%;
-  height: 200px;
+a:hover{
+    color:gray;
 }
-h1.hea{
-  padding-top: 75px;
+a:active{
+    color:black;
+}
 
+/* Box model */
+.container{
+    max-width: 100%;
+    margin: auto;  /* Внешние отступы */
+    display: flex;
+    flex-direction: column; 
 }
-nav.navi{
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 45% ;
-  align-content: center;
-
-  background: rgba(17, 141, 223, 0.356);
-
-
+.URL {
+    
+    background: rgb(63, 63, 63);
+    padding: 8vw ; /* Внутренние отступы в блоке */ /*padding: 10px 15px 20px 25px; указание каждой стороны*/
+    border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
+    margin: 10px;
+    border-radius: 50px                  ;
 }
-div.navig{
-  width: 100%;
-  height: 20px;
-  padding-bottom: 20px;
+.list{
+    padding: 0 20px;
 }
-a.sil{
-  font-size: 30px;
-  margin-left: 20px;
-
+.list li{
+    margin-bottom: 15px;
 }
-table{
-  border: 1;
-  color: white;
+.info{
+    display: flex;
+    padding-left:0%;
 }
-footer{
-  font-size: 20px;
-  align-content: center;
-  padding-left: 50%;
+.info h1{
+    margin-left:40px;
+    margin-top:50px;
+    color:gray;
 }
-div.footer{
-  width: 100%;
-  background: rgb(4, 248, 216);
+.navigation{
+    background: rgb(37, 37, 37);
+    max-width: 100%;
+    margin: 30px;
+    display: flex;
+    margin:auto;
+    padding: 30px;
+    border: 3px solid rgb(151, 151, 151);
+    border-radius: 100px;
+    flex-direction: column;
 }
-div.table{
-  padding-top: 100px;
-  height: 200px;
-  width: 100%;
-  background: rgba(17, 141, 223, 0.356);
+.navigation a{
+    max-width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(59, 61, 63);
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
 }
-th.tb{
-  background: rgba(17, 141, 223, 0.356);
-  color: rgb(11, 245, 147);
+.navigation a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(70, 72, 73);
+    border-radius: inherit;
+    box-shadow: 0 0 0 3px #363232;
+    transform: translate3d(0, 13px, -2px);
+    transition: transform 0.15s, box-shadow 0.15s;
 }
-td.tb{
-  background: rgb(85, 136, 248);
-  color: rgb(11, 245, 147);
+.navigation a:hover {
+    background: #d8cbcb;
+    transform: translate(0, 0.25em);
+  }
+.navigation a:hover::before {
+    box-shadow: 0 0 0 4px #484a4e;
+    transform: translate3d(0, 0.5em, -1em);
+}
+.ul{
+    list-style: none;
+    padding:0;
+}
+.table {
+    display:flex;
+    max-width: 100%;
+    margin: 60px;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    order:2;
+}
+td,th {
+    width: 190px;
+	padding: 10px;
+	font-size: 15px;
+}
+.odd {
+background-color: rgb(87, 36, 102);
+}
+footer p{
+    color:rgb(60,60,60);
+    display: flex;
+    justify-content: center;
 }
 
  @media screen and (min-width: 1200px)
