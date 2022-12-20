@@ -168,4 +168,7 @@ html {
     #sozd {
         margin: 30px 0px 0px 60px;
     }
+   .container {
+      order:0;
+   }
 }
