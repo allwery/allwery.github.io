@@ -1,4 +1,9 @@
-body {
+{
+  margin:0;
+  padding: 0;
+}
+
+html {
     background: rgba(17, 141, 223, 0.356);
     color: rgb(10, 100, 235);
   }
@@ -23,9 +28,17 @@ body {
     width: 100%;
     height: 200px;
   }
-  h1.hea{
+  h1.head{
     padding-top: 75px;
   
+  }
+  #navi ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
   }
   nav.navi{
     margin-top: 10px;
@@ -37,16 +50,17 @@ body {
   
   
   }
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
   div.navig{
     width: 100%;
     height: 20px;
     padding-bottom: 20px;
   }
-  a.sil{
-    font-size: 30px;
-    margin-left: 20px;
-  
-  }
+
   table{
     border: 1;
     color: white;
@@ -66,6 +80,11 @@ body {
     width: 100%;
     background: rgba(17, 141, 223, 0.356);
   }
+  table{
+    text-align: center;
+    border: 2px solid red;
+    border-collapse: collapse;
+  }
   th.tb{
     background: rgba(17, 141, 223, 0.356);
     color: rgb(11, 245, 147);
@@ -73,4 +92,10 @@ body {
   td.tb{
     background: rgb(85, 136, 248);
     color: rgb(11, 245, 147);
+  }
+  #footer{
+    background-color: rgba(17, 141, 223, 0.356);
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
   }
