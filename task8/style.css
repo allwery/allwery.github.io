@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {
+  background: rgb(0, 204, 255);
+  color: rgb(17, 0, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(50, 5, 252);
+}
+a:active{
+    color:rgb(3, 217, 255);
+}
+
+.URL {
+    
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
+    border-radius: 50px                  ;
+}
+
+.info h1{
+    color:gray;
+}
+.navigation{
+    background: rgb(56, 240, 163);
+    border: 3px solid rgb(151, 151, 151);
+    border-radius: 100px;
+    
+}
+.navigation a{
+    background-color: rgb(59, 61, 63);
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+  }
+  span.title {
+	display: block;
+	text-align: center;
+	margin: 15px auto;
+  }
+  .basicBox, .basicBoxs , .basicBoxes{
+	text-transform: uppercase;
+	width: 130px;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	margin: 10px auto;
+	position: relative;
+	cursor: pointer;
+  }
+  svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  svg rect {
+	stroke: #fd0130;
+	stroke-width: 7;
+	transition: 0.8s;
+	stroke-dasharray: 200, 0;
+  }
+  .basicBox:hover svg rect {
+	stroke-width: 10;
+	stroke-dasharray: 70, 245;
+	stroke-dashoffset: 91
+  }
+
+  .basicBoxs:hover svg rect {
+    stroke-width: 10;
+    stroke-dasharray: 108, 245;
+    stroke-dashoffset: 147
+  }
+
+
+.popup-bg, .popup-bg-2{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+	display: none;
+}
+
+.popup, .popup-2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	background: #00ffd2;
+	border: 10px solid #fd0130;
+	padding: 20px;
+	transform: translate(-50%,-50%);
+	color: black;
+}
+
+.popup{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.no-slide{
+	overflow-y: hidden;
+}
+
+/* popup 2 */
+
+#otpravka1, #otpravka2, #otpravka3{
+	display: none;
+}
+
+.basicBoxes:hover svg rect {
+    stroke-width: 10;
+    stroke-dasharray: 108, 245;
+    stroke-dashoffset: 147
+  }
+
+/*ссылки*/
+#hyperlinks {
+    background-color: #00ffd2;
+    transition: 0.8s ease-in-out;
+    border: 5px solid black;
+}
+
+#hyperlinks:hover {
+    background-color: white;
+}
+
+#hyperlinks li{
+    transition: 0.5s ease-in-out;
+}
+
+#hyperlinks li:hover {
+    background-color: #00ffd2;
+}
+
+
+.ul{
+    list-style: none;
+
+}
+.table {
+    background-color: rgb(66, 241, 227);
+    text-align: center;
+}
+td,th {
+    color:rgb(255, 255, 255);
+}
+.odd {
+background-color: rgb(2, 140, 253);
+}
+footer p{
+    color:rgb(64, 230, 114);
+    justify-content: center;
+}
+#slidelinks img{
+    border: 6px solid #0f68dd;
+}
