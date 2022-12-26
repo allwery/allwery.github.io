@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {
+  background: rgb(0, 204, 255);
+  color: rgb(17, 0, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(50, 5, 252);
+}
+a:active{
+    color:rgb(3, 217, 255);
+}
+
+.URL {
+    
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(150, 150, 150); /* Граница (:ширина границы стиль цвет) */
+    border-radius: 50px                  ;
+}
+
+.info h1{
+    color:gray;
+}
+.navigation{
+    background: rgb(56, 240, 163);
+    border: 3px solid rgb(151, 151, 151);
+    border-radius: 100px;
+    
+}
+.navigation a{
+    background-color: rgb(59, 61, 63);
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+}
+
+.ul{
+    list-style: none;
+
+}
+.table {
+    background-color: rgb(66, 241, 227);
+    text-align: center;
+}
+td,th {
+    color:rgb(255, 255, 255);
+}
+.odd {
+background-color: rgb(2, 140, 253);
+}
+footer p{
+    color:rgb(64, 230, 114);
+    justify-content: center;
+}
+#slidelinks img{
+    border: 6px solid #0f68dd;
+}
