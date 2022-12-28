@@ -1,171 +1,179 @@
-   {
-  margin:0;
-  padding: 0;
+  * {
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    background: rgba(17, 141, 223, 0.356);
-    color: rgb(10, 100, 235);
-  }
-  A{
-    color: rgb(10, 100, 235);
-    text-decoration:none;
-  }
-  h1{
-    text-align: center;
-  }
-  img.logo{
-    float: left;
-    margin: 10px;
-    width: 100px;
-    padding-top: 40px;
-    margin-left: 100px;
-  
-  }
-  div.head{
-      background: rgba(17, 141, 223, 0.356);
-    align-content: center;
-    width: 100%;
-    height: 200px;
-  }
-  h1.head{
-    padding-top: 75px;
-  
-  }
-  #navi ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-  }
-  nav.navi{
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-left: 45% ;
-    align-content: center;
-  
-    background: rgba(17, 141, 223, 0.356);
-  
-  
-  }
-  .container{
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-  }
-  div.navig{
-    width: 100%;
-    height: 20px;
-    padding-bottom: 20px;
-  }
-
-  table{
-    border: 1;
+	font-family: 'Open Sans', sans-serif;
+    background-color: #141414;
     color: white;
-  }
-  footer{
-    font-size: 20px;
-    align-content: center;
-    padding-left: 50%;
-  }
-  div.footer{
-    width: 100%;
-    background: rgb(4, 248, 216);
-  }
-  div.table{
-    padding-top: 100px;
-    height: 200px;
-    width: 100%;
-    background: rgba(17, 141, 223, 0.356);
-  }
-  table{
-    text-align: center;
-    border: 2px solid red;
-    border-collapse: collapse;
-  }
-  th.tb{
-    background: rgba(17, 141, 223, 0.356);
-    color: rgb(11, 245, 147);
-  }
-  td.tb{
-    background: rgb(85, 136, 248);
-    color: rgb(11, 245, 147);
-  }
-  #footer{
-    background-color: rgba(17, 141, 223, 0.356);
-    padding: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-  }
+}
 
-@media (min-width: 800px) {
-    #body {
-        margin: 0;
-    }
+/* шапка */
+#header {
+	color: white;
+	font-size: 24px;
+}
 
-    #header {
-        width: 100%;
-        background-color: rgb(206, 234, 236);
-        padding: 10px 0px 10px 0px;
-        height: 120px;
-    }
+.logo {
+	float: left;
+	padding-right: 15px;
+    padding-top: 0px;
+}
 
-    #Logoh1 {
-        max-width: 960px;
-        margin: 0 auto;
-    }
+.site_title {
+padding-top: 60px;
+}
 
-    #logo {
-        float: left;
-        margin: 10px;
-        width: 130px;
-        height: 100px;
-    }
+#navigation {
+	padding: 15px;
+	background-color: #222222;
+	border: 5px solid #2e2e2e;
+	margin-bottom: 20px;
+}
 
-    #h1 {
-        background-color: rgb(206, 234, 236);
-        padding: 10px;
-        color: #1c8f85;
-    }
+#navigation ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
 
-    #nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 960px;
-        background-color: rgb(206, 234, 236);
-        margin: 0 auto;
-        margin-top: 20px;
-        padding: 10px;
-    }
-   
-    .content {
-        max-width: 960px;
-        background-color: rgb(206, 234, 236);
-        margin: 0 auto;
-        margin-top: 20px;
-        padding: 10px;
-    }
+/* ссылки */
+#header, #hyperlinks {
+	background-color: #222222;
+	margin-bottom: 20px;
+	padding: 8vw;
+}
 
-    .ne_chet {
-        background-color: rgb(197, 156, 236);
-    }
+#hyperlinks {
+background-color: #222222;
+border: 5px solid#2e2e2e;
+}
 
-    .chet {
-        background-color: rgb(243, 125, 115);
-    }
+/* форма */
+#form {
+	background-color:#222222;
+	border: 5px solid #2e2e2e;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 2vw;
+	font-size: 13px;
+}
 
-    #footer {
-        width: 100%;
-        background-color: rgb(206, 234, 236);
-        height: 70px;
-        padding: 30px 0px 30px 0px;
-        margin-top: 20px;
-    }
+/* дно */
+#footer {
+	background-color: #222222;
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+/* таблица */
+table {
+	text-align: center;
+	border: 5px solid #2e2e2e;
+	border-collapse: collapse;
+}
 
-    #sozd {
-        margin: 30px 0px 0px 60px;
-    }
+td, th {
+	width: 150px;
+	padding: 5px;
+	font-size: 15px;
+}
+
+tr:nth-child(odd) {
+	background-color: #181818;
+}
+
+tr:nth-child(even) {
+	background-color: #202020;
+}
+
+/* прочее */
+a {
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.tabl {
+	display: flex;
+	flex-direction: column;
+}
+
+.fform {
+	flex: 1;
+	order: 0;
+}
+
+.contF {
+	display: flex;
+	flex-direction: column;
+}
+
+.s {
+	flex: 1;
+	order: 4;
+}
+
+.t {
+	flex: 1;
+	order: 6;
+}
+
+.f {
+	flex: 1;
+	order: 5;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.container {max-width: 960px;}
+
+	.contF {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.s {
+		flex: 1;
+		order: 4;
+	}
+
+	.t {
+		flex: 1;
+		order: 5;
+	}
+	.f {
+		flex: 1;
+		order: 6;
+	}
+
+	#navigation ul{
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 25px;
+	}
+
+	#header, #hyperlinks {
+		padding: 2vw;
+	}
+
+	#container {
+        font-size: 10pt;
+	}
 }
