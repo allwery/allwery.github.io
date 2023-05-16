@@ -209,8 +209,8 @@ else {
   $bio= $_POST['bio'];
 
   // Сохранение в БД.
-$user = 'u52927';
-$pass = '5758562';
+$user = 'u54430';
+$pass = '7793806';
   $db = new PDO('mysql:host=localhost;dbname=u52927', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
    try {
     $stmt = $db->prepare("INSERT INTO form SET name=:name, email=:email, year=:byear, pol=:pol, limbs=:limbs, bio=:bio");
